@@ -1,8 +1,24 @@
 
 .fixedlogo {
   position: fixed;
-  left: 10%;
-  top: 2%;
+  margin-top: 35px;
+  margin-left: 35px;
+  stroke: #e5e5e5;
+}
+
+.app {
+  position: static;
+  margin-left: 130px;
+}
+
+.navbarcontainer {
+  width: 270px;
+  height: 100vh;
+  position:absolute;
+  margin-top:-80px;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .navbar {
@@ -12,11 +28,7 @@ flex-direction: row-reverse;
 justify-content: center;
 align-items: center;
 position:fixed;
-top: 36%;
-right: 57%;
-width: 70em;
-height: 8em;
-background-color: white;
+padding: 5px 0;
 }
 
 .about-section {

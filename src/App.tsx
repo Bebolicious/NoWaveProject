@@ -4,9 +4,11 @@ import { NavBar, About, History, Characteristics, VisualArt, Logo } from './comp
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Logo />  
+      <div className="navbarcontainer">
       <NavBar />
+      </div>
       <About />
       <History />
       <Characteristics />
